@@ -15,7 +15,7 @@ services:
     container_name: postgres3
     image: postgres:latest
     ports:
-    - "5432:5432"
+    - "5435:5435"
     volumes:
     - /data/postgres:/data/postgres
     env_file:
